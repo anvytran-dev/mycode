@@ -29,6 +29,7 @@ elif month == 11:
     message = intro + "Topaz"
 elif month == 12:
     message = intro + "Tanzanite"
-
+else:
+    message = "Please enter a valid input. Valid Input: 1-12"
 print(message)
 
