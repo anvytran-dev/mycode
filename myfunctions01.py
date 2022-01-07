@@ -16,7 +16,15 @@ def findMax(listOfNumbers):
     for num in listOfNumbers:
         if num > max:
             max = num
-    return max
+    return max 
+
+## Write a Python function to multiply all the numbers in a list.
+
+def multiplyNums(listOfNumbers):
+    product = 1 
+    for num in listOfNumbers:
+        product*=num
+    return product
 
 ## Write a Python program to reverse a string.
 
@@ -40,6 +48,7 @@ def main():
    print(findMax([12, 5, 9, 25, 4]))
    print(reverseString('abc'))
    isInRange(9)
+   print(multiplyNums([8, 2, 3, -1, 7]))
     
 
 main()
